@@ -112,7 +112,7 @@ cp .env.example .env
 | Variable | Default | Description |
 |----------|---------|-------------|
 | `GROQ_API_KEY` | *(required)* | Your Groq API key. Get one free at [console.groq.com](https://console.groq.com) |
-| `LLM_MODEL` | `llama-3.3-70b-versatile` | Groq model name. Other options: `llama-3.1-8b-instant`, `mixtral-8x7b-32768` |
+| `LLM_MODEL` | `qwen/qwen3.8-27b` | Groq model name. Other options: `llama-3.3-70b-versatile`, `llama-3.1-8b-instant` |
 | `EMBEDDING_MODEL` | `sentence-transformers/all-MiniLM-L6-v2` | HuggingFace embedding model for RAG |
 | `VECTOR_DB_PATH` | `.data/vector_db` | Local directory for Chroma persistence |
 | `RAG_COLLECTION` | `customer-support` | Chroma collection name |
